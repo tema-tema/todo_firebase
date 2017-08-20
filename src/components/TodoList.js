@@ -8,7 +8,7 @@ class TodoList extends Component{
     let list = []
     todos.map(todo => {
       list.push(
-        <div style={{display:'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+        <div style={{display:'flex', flexDirection: 'row', justifyContent: 'space-between', width: '200px', margin: 'auto' }}>
           <Todo
             key={todo.key}
             text={todo.text}
